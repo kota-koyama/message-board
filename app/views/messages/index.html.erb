@@ -12,7 +12,7 @@
     <% end %>
   </div>
 </div>
-<form class="form-horizontal">
+<div class="form-horizontal" role="form">
     <%= form_for(@message) do |f| %>
       <div class="form-group">
         <label for="message_name" class="col-md-1 control-label">名前</label>
@@ -31,5 +31,5 @@
           <%= f.submit class: "btn btn-sm btn-primary" %>
         </div>
       </div>
-</form>
-<% end %>
+    <% end %>
+</div>
